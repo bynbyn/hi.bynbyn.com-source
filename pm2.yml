@@ -1,0 +1,4 @@
+apps:
+  - script: pm2.js
+    watch: false
+    name: bynbyn
