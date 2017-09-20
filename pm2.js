@@ -1,6 +1,6 @@
 const spawn = require('child_process').spawn;
 
-const server = spawn('hexo', ['server', '-p 4001']);
+const server = spawn('hexo', ['server']);
 //其实就是等于执行hexo server -p 4001
 
 server.stdout.on('data', function (data)
