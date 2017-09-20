@@ -89,7 +89,7 @@ theme: anatole
 
 marked:
   gfm: true
-  breaks: false
+  breaks: true
 
 search:
   path: search.xml
