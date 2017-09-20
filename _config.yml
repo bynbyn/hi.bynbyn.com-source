@@ -5,7 +5,7 @@
 # Site
 title: bynbyn
 subtitle: wish you always shine
-description:
+description: From the day I meet bynbyn
 author: twesix
 language: zh-Hans
 timezone:
@@ -49,8 +49,8 @@ highlight:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 10
-  order_by: -date
+  per_page: 5
+  order_by: date
 
 archive_generator:
   per_page: 0
