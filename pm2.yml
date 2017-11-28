@@ -1,4 +1,4 @@
 apps:
-  - script: pm2.js
+  - script: server.sh
     watch: false
     name: bynbyn
