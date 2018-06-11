@@ -9,3 +9,7 @@ script:
   - hexo g
 after_success:
   - cd ./public
+  - git init
+  - git add --all .
+  - git commit -m "Travis CI Auto Build"
+  - git push --force https://github.com/bynbyn/hi.bynbyn.com master
