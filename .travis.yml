@@ -6,6 +6,8 @@ install: npm install
 
 script:
   - cat .travis.yml
+  - ls
+  - mkdir themes
   - cd themes
   - git clone https://github.com/bynbyn/hexo-theme-Anatole anatole
   - cd ../
