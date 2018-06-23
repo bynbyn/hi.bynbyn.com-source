@@ -19,7 +19,7 @@ server:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://www.bynbyn.com
+url: http://hi.bynbyn.com
 root: /
 permalink: :title/
 permalink_defaults:
